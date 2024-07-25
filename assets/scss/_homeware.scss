@@ -1,0 +1,48 @@
+#homeware {
+  .cols {
+    background-color: $black;
+    height: auto;
+    width: 100%;
+  }
+
+  .sheyn {
+    color: $white;
+    height: auto;
+    width: 100%;
+  }
+
+  .place {
+    padding: 50px;
+  }
+
+  .cols {
+    margin-top: 30px;
+  }
+
+  .sheyn .font-size {
+    font-size: 4.5rem;
+  }
+  .cols p {
+    font-size: 2.5rem;
+    line-height: 3.6rem;
+  }
+
+  .apply-btn button {
+    padding: 13px;
+    width: 200px;
+    background-color: $black;
+    color: $white;
+    border: 1px solid $white;
+  }
+
+  .cols .apply-btn {
+    padding: 30px;
+    margin-left: 15px;
+  }
+
+  @media (max-width: 755px) {
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+}

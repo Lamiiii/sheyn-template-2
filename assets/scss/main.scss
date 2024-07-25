@@ -1,0 +1,34 @@
+@import "./variables";
+@import "./header";
+@import "./homeware";
+@import "./vase";
+@import "./type";
+@import "./blend";
+@import "./blend-vase";
+@import "lightning";
+@import "./light-vase";
+@import "./texts";
+@import "./images";
+@import "./footer";
+@import "./mixin";
+
+body{
+    background-color: rgb(243, 235, 224);
+}
+html{
+    font-size: 10px;
+}
+
+@media(max-width:965px){
+    html,
+    body{
+        width: 100%;
+        overflow-x:hidden ;   
+    }
+}
+
+@media(max-width:961){
+    body{
+        width: 100%;
+    }
+}

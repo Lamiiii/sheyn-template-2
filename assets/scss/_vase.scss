@@ -1,0 +1,23 @@
+#vase {
+  .col-2 {
+    margin-top: 100px;
+  }
+
+  .col-2 h5 {
+    text-align: center;
+    font-size: 1rem;
+    color: gray;
+  }
+
+  @media (max-width: 1000px) {
+    .col-md-6 {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 772px) {
+    .col-sm-12 {
+      width: 100%;
+    }
+  }
+}

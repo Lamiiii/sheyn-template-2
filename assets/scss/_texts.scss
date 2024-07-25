@@ -1,0 +1,29 @@
+#texts {
+  margin-top: 100px;
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 30px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  @media (max-width: 961) {
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+}

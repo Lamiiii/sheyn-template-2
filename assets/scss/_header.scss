@@ -1,0 +1,74 @@
+header {
+  margin-top: 10px;
+
+  h3 {
+    font-size: 3.5rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+    font-size: 2rem;
+  }
+
+  ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: $black;
+  }
+
+  ul li a:hover {
+    box-shadow: 0 1px $black;
+  }
+
+  .basket {
+    display: flex;
+    justify-content: end;
+    margin-top: 13px;
+    font-size: 25px;
+  }
+
+  .basket .bi-list {
+    margin-top: 32px;
+    display: none;
+  }
+
+
+  @media (max-width: 1000px) {
+    ul li {
+      display: none;
+    }
+
+    body {
+      font-size: 25px;
+    }
+    .basket .bi-list {
+      display: inline-block;
+    }
+
+    .basket .zero {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .basket .zero {
+      display: inline-block;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    html {
+      font-size: 10px;
+    }
+
+    .basket .bi-list {
+      display: inline-block;
+    }
+
+    .basket .zero {
+      display: none;
+    }
+  }
+}
